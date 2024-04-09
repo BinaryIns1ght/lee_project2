@@ -146,7 +146,7 @@ footer a:hover {text-decoration: underline;}
     font-weight: 900;
     color: white;
     text-shadow: 0 0 35px ghostwhite;
-    -webkit-box-reflect: below -50px linear-gradient(transparent, gray);
+    -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(128, 128, 128, 0.35));
 }
 
 /* 

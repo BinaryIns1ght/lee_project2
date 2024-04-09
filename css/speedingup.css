@@ -82,7 +82,6 @@ footer a:hover {text-decoration: underline;}
     0% {
         color: transparent;
         text-shadow: none;
-        /* -webkit-box-reflect: below -10px linear-gradient(transparent, transparent); */
     }
     100% {
         color: black;
@@ -112,17 +111,17 @@ footer a:hover {text-decoration: underline;}
     0% {
         color: transparent;
         text-shadow: none;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, transparent);
+        -webkit-box-reflect: below -150px linear-gradient(transparent, transparent);
     }
-    50% {
-        color: lime;
+    20% {
+        color: darkgreen;
         text-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(0, 255, 0, 0.5));
+        -webkit-box-reflect: below -150px linear-gradient(transparent, rgba(0, 255, 0, 0.25));
     }
     100% {
         color: green;
         text-shadow: 0 0 40px rgba(0, 128, 0, 0.5);
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(0, 128, 0, 0.5));
+        -webkit-box-reflect: below -150px linear-gradient(transparent, rgba(0, 128, 0, 0.25));
     }
 }
 
@@ -194,8 +193,8 @@ footer a:hover {text-decoration: underline;}
 @keyframes loses {
     0% {color: transparent;}
     25% {text-shadow: 0 0 100px gray;}
-    50% {color: black;}
-    75% {text-shadow: 0 0 150px hotpink;}
+    50% {color: coral;}
+    75% {text-shadow: 0 0 150px orange;}
     100% {
         color: red;
         text-shadow: 0 0 200px rgba(255, 0, 0, 0.7);
@@ -252,12 +251,12 @@ footer a:hover {text-decoration: underline;}
     50% {
         color: rgba(255, 0, 0, 0.9);
         text-shadow: 0 0 50px rgba(245, 245, 220, 0.9);
-        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(255, 0, 0, 0.5));
+        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(255, 0, 0, 0.25));
     }
     100% {
         color: red;
         text-shadow: 0 0 50px beige;
-        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(255, 0, 0, 0.55));
+        -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(255, 0, 0, 0.255));
     }
 }
 
@@ -294,14 +293,14 @@ footer a:hover {text-decoration: underline;}
         -webkit-box-reflect: below -5px linear-gradient(transparent, transparent);
     }
     50% {
-        color: rgba(0, 255, 0, 0.9);
+        color: rgba(0, 128, 0, 0.75);
         text-shadow: 0 0 50px rgba(0, 100, 0, 0.9);
-        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 255, 0, 0.5));
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 255, 0, 0.25));
     }
     100% {
-        color: lime;
+        color: green;
         text-shadow: 0 0 50px darkgreen;
-        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 255, 0, 0.55));
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 255, 0, 0.3));
     }
 }
 
@@ -344,7 +343,7 @@ footer a:hover {text-decoration: underline;}
     font-weight: 900;
     color: yellowgreen;
     text-shadow: 0 0 20px green;
-    -webkit-box-reflect: below -50px linear-gradient(transparent,rgba(153, 205, 50, 0.75));
+    -webkit-box-reflect: below -70px linear-gradient(transparent,rgba(153, 205, 50, 0.25));
 
     animation-name: crutch;
     animation-duration: 5s;
@@ -358,17 +357,17 @@ footer a:hover {text-decoration: underline;}
     0%, 100% {
         color: yellowgreen;
         text-shadow: 0 0 20px green;
-        -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(153, 205, 50, 0.75));
+        -webkit-box-reflect: below -70px linear-gradient(transparent, rgba(153, 205, 50, 0.25));
     }
     62.5% {
         color: yellow;
         text-shadow: 0 0 20px orange;
-        -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(255, 255, 0, 0.5));
+        -webkit-box-reflect: below -70px linear-gradient(transparent, rgba(255, 255, 0, 0.2));
     }
     50%, 75% {
         color: lime;
         text-shadow: 0 0 20px cadetblue;
-        -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(0, 255, 0, 0.625));
+        -webkit-box-reflect: below -70px linear-gradient(transparent, rgba(0, 255, 0, 0.25));
     }
 }
 
@@ -662,12 +661,12 @@ footer a:hover {text-decoration: underline;}
     50% {
         color: black;
         text-shadow: 0 0 20px darkslategray;
-        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 0, 0, 0.25));
     }
     100% {
         color: green;
         text-shadow: 0 0 20px limegreen;
-        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 128, 0, 0.5));
+        -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 128, 0, 0.25));
         transform: translateY(0%);
         -webkit-transform: translateY(0%);
         -moz-transform: translateY(0%);
