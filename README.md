@@ -34,6 +34,18 @@ For lessons in coding, like HTML and CSS:
 
 https://www.w3schools.com
 
+---
+
 For custom fonts for your webpages:
 
 https://fonts.google.com
+
+---
+
+Information About Scatman John:
+
+https://en.wikipedia.org/wiki/Scatman_John
+
+https://scatmanjohn.com/
+
+https://medium.com/@blackdogstrength/scatman-john-all-the-stuff-i-didnt-know-31867654f85c
