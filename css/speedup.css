@@ -114,12 +114,12 @@ footer a:hover {text-decoration: underline;}
 }
 
 #seven a {
-    font-size: 10em;
-    font-family: 'Micro 5', sans-serif;
+    font-size: 7em;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 900;
     text-align: center;
     top: 25%;
-    left: 28%;
+    left: 20%;
     color: transparent;
 
     animation-name: world;
@@ -131,15 +131,18 @@ footer a:hover {text-decoration: underline;}
 }
 
 @keyframes world {
-    from {
+    0% {
         color: transparent;
         text-shadow: none;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, transparent, transparent);
+        -webkit-box-reflect: below -70px linear-gradient(transparent, transparent, transparent);
     }
-    to {
+    50% {
+        -webkit-box-reflect: below -70px linear-gradient(transparent, transparent, rgba(0, 255, 0, 0.2));
+    }
+    100% {
         color: green;
         text-shadow: 0 0 50px lime;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, transparent, rgba(0, 255, 0, 0.5));
+        -webkit-box-reflect: below -70px linear-gradient(transparent, transparent, rgba(0, 255, 0, 0.2));
     }
 }
 

@@ -141,12 +141,12 @@ footer a:hover {text-decoration: underline;}
 #thirteen a {
     top: 50%;
     left: 35%;
-    font-size: 15em;
-    font-family: 'Micro 5', sans-serif;
+    font-size: 10em;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 900;
     color: white;
-    text-shadow: 0 0 35px ghostwhite;
-    -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(128, 128, 128, 0.35));
+    text-shadow: 0 0 20px ghostwhite;
+    -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(128, 128, 128, 0.5));
 }
 
 /* 

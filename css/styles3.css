@@ -67,11 +67,11 @@
 
 #One a {
     color: #7DF9FF;
-    font-size: 10em;
+    font-size: 8em;
     font-weight: 750;
     left: 45%;
     top: 40%;
-    -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(0, 255, 255, 0.25));
+    -webkit-box-reflect: below -80px linear-gradient(transparent, rgba(0, 255, 255, 0.25));
 
     animation-name: shock;
     animation-duration: 2s;
@@ -114,6 +114,21 @@
     animation-direction: normal;
 }
 
+#Two h2 {
+    top: 10%;
+    left: 40%;
+    font-size: 2.5em;
+    padding: 10px;
+    background-color: transparent;
+    
+    animation-name: just;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
 @keyframes just {
     from {
         color: transparent;
@@ -133,35 +148,9 @@
     }
 }
 
-#Two h2 {
-    top: 15%;
-    left: 40%;
-    font-size: 3em;
-    padding: 10px;
-    background-color: transparent;
-    
-    animation-name: blockin;
-    animation-duration: 0.5s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-}
-
-@keyframes blockin {
-    from {
-        color: transparent;
-        background-color: transparent;
-    }
-    to {
-        color: white;
-        background-color: red;
-    }
-}
-
 #Two h5 {
-    top: 35%;
-    left: 20%;
+    top: 25%;
+    left: 25%;
     font-size: 2.5em;
 
     animation-name: what;
@@ -192,14 +181,14 @@
 }
 
 #Two a {
-    color: red;
+    color: green;
     line-height: 0.7em;
-    text-shadow: 0 0 80px red;
+    text-shadow: 0 0 80px green;
     top: 47%;
     left: 50%;
-    font-size: 15em;
+    font-size: 10em;
     font-weight: 800;
-    -webkit-box-reflect: below -25px linear-gradient(transparent, rgba(255, 0, 0, 0.25));
+    -webkit-box-reflect: below -15px linear-gradient(transparent, rgba(0, 128, 0, 0.2));
 
 
     animation-name: in;
@@ -210,21 +199,13 @@
 }
 
 @keyframes in {
-    0% {
-        color: red; 
-        text-shadow: 0 0 80px red;
-    }
-    25% {
+    0%, 100% {
         color: green;
-        text-shadow: 0 0 80px green;
+        text-shadow: 0 0 20px darkgreen;
     }
     50% {
-        color: blue;
-        text-shadow: 0 0 80px blue;
-    }
-    75% {
-        color: hotpink;
-        text-shadow: 0 0 80px hotpink;
+        color: lime;
+        text-shadow: 0 0 30px lightgreen;
     }
 }
 
@@ -263,7 +244,6 @@
 }
 
 #Three h4 {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 2.5em;
     top: 9%;
     left: 40%;
@@ -305,7 +285,7 @@
 
 #Three h2 {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 20%;
     font-size: 3em;
 
@@ -339,9 +319,9 @@
 #Three a{
     font-size: 10em;
     font-weight: 750;
-    top: 35%;
+    top: 40%;
     color: transparent;
-    -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(173, 216, 230, 0));
+    -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(173, 216, 230, 0));
 
     animation-name: walk;
     animation-duration: 5s;
@@ -357,10 +337,10 @@
         color: transparent;
         text-shadow: none;
         left: 0%;
-        -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(173, 216, 230, 0));
+        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(173, 216, 230, 0));
     }
     25% {
-        -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(173, 216, 230, 0.25));
+        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(173, 216, 230, 0.25));
     }
     50% {
         color: lightblue;
@@ -368,12 +348,12 @@
         left: 45%;
     }
     75% {
-        -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(173, 216, 230, 0.25));
+        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(173, 216, 230, 0.25));
     }
     100% {
         color: transparent;
         left: 60%;
-        -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(173, 216, 230, 0));
+        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(173, 216, 230, 0));
     }
 }
 
@@ -413,7 +393,7 @@
 
 #Four h3 {
     font-size: 2.5em;
-    top: 6%;
+    top: 4%;
     left: 46%;
 
     animation-name: sis;
@@ -454,7 +434,7 @@
 
 #Four h2 {
     font-size: 2.5em;
-    top: 25%;
+    top: 27%;
     left: 25%;
 
     animation-name: aint;
@@ -508,7 +488,7 @@
     to {
         color: white;
         text-shadow: 0 0 20px ghostwhite;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(255, 255, 255, 0.25));
+        -webkit-box-reflect: below -150px linear-gradient(transparent, rgba(255, 255, 255, 0.2));
     }
 }
 
@@ -599,26 +579,32 @@
 }
 
 #Five a {
-    color: lightblue;
+    color: transparent;
     font-size: 20em;
-    text-shadow: 0 0 10px cornflowerblue, 0 0 40px cornflowerblue, 0 0 80px cornflowerblue;
-    bottom: 20%;
+    top: 30%;
     left: 35%;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(255, 255, 255, 0.5));
     
     animation-name: soul;
     animation-duration: 2s;
-    animation-delay: 0s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-direction: normal;
 }
 
 @keyframes soul {
-    0%, 100% {
-        text-shadow: 0 -5px 7px cornflowerblue, 0 -6px 10px rgba(100, 148, 237, 0.9), 0 -10px 16px rgba(100, 148, 237, 0.7), 0 -14px 24px rgba(100, 148, 237, 0.75);
+    0% {
+        color: transparent;
+        text-shadow: none;
     }
     50% {
-        text-shadow: 0 -6px 10px rgba(100, 148, 237, 0.9), 0 -10px 16px rgba(100, 148, 237, 0.7), 0 -14px 24px rgba(100, 148, 237, 0.75);
+        color: white;
+        text-shadow: 0 0 25px white;
+    }
+    100% {
+        color: ghostwhite;
+        text-shadow: 0 0 20px ghostwhite;
     }
 }
 
@@ -716,32 +702,15 @@
     0% {
         color: transparent;
         text-shadow: none;
-    -webkit-box-reflect: none;
+        -webkit-box-reflect: none;
     }
-    25% {
-        color: lightgray;
-        text-shadow: 0 0 50px gray;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(211, 211, 211, 0.25));
+    90% {
+        -webkit-box-reflect: below -150px linear-gradient(transparent, rgba(255, 250, 240, 0.2));
     }
-    50%, 100% {
-        color: white;
-        text-shadow: 0 0 50px ghostwhite;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(255, 255, 255, 0.25));
-    }
-    60%, 90% {
-        color: yellow;
-        text-shadow: 0 0 50px lightyellow;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(255, 255, 224, 0.25));
-    }
-    70%, 80% {
-        color: orange;
-        text-shadow: 0 0 50px lightsalmon;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(255, 160, 122, 0.25));
-    }
-    75% {
-        color: red;
-        text-shadow: 0 0 50px lightcoral;
-        -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(240, 128, 128, 0.25));
+    100% {
+        color: floralwhite;
+        text-shadow: 0 0 20px floralwhite;
+        -webkit-box-reflect: below -150px linear-gradient(transparent, rgba(255, 250, 240, 0.2));
     }
 }
 
